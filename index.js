@@ -1,8 +1,7 @@
 // Set up basic variables for app
 
-const GCPAPIKey = process.env.GCPAPIKEY;
 const speechToTextModel = "http://127.0.0.1:8000/files/";
-const LANGUAGE = "es";
+const LANGUAGE = "en"; // Currently it only accepts Spanish ('es') and English ('en')
 
 const record = document.querySelector(".record");
 const stop = document.querySelector(".stop");
@@ -72,7 +71,7 @@ if (navigator.mediaDevices.getUserMedia) {
           // note that file sent is in 48,000
           console.log(JSON.stringify(response));
           addTextToDialog("YOU:   ", response.transcription);
-          addTextToDialog("BOT:   ", response.answer);
+          addTextToDialog("ALZI:   ", response.answer);
           return response;
         })
         .then((response) => {

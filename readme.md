@@ -1,6 +1,8 @@
 # Alzi Talkbot
 
-A bot that listens to your voice and talks back to you. Proof of Concept.
+A bot that listens to your voice and talks back to you. In any language. Proof of Concept.
+
+![Alzi screenshot](/resources/alzi_screenshot.JPG)
 
 ## What is it?
 

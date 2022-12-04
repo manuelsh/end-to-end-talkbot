@@ -3,16 +3,17 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Talk to Gusy</title>
+    <title>Talk to Alzi</title>
     <link href="index.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
     <div class="wrapper">
       <header>
-        <h1>Talk to Alzi</h1>
-      </header>
 
+        <h1>Hello, I am Alzi.</h1>
+        <p style="text-align:center">Talk to me in any language. With your voice.</p>
+      </header>
       <section class="main-controls">
         <canvas class="visualizer" height="60px"></canvas>
         <div id="buttons">
@@ -27,6 +28,7 @@
     </div>
 
     <script src="https://apis.google.com/js/api.js"></script>    <!-- to enable the GCP text2speech API -->
+    <script src="apikey.js"></script> // this file should hold the API key and put it in the variable GCPApiKey
     <script src="index.js"></script>
     
   </body>
