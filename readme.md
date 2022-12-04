@@ -62,7 +62,7 @@ You can use any browser, but I recommend Chrome, as it is the only one that I te
 
 I was impressed with the results of the Whisper model, which is able to understand almost flawlessly speech in any language, and translate it to English. It is even able to understand Catalan, which is usually not supported by machine learning models.
 
-However, the Blenderbot 3 model, in its 3 billion parameter version, is not able to sustain a long conversations, as it is not able to remember the context. However sometimes has some lucid moments.
+However, the Blenderbot 3 model, in its 3 billion parameter version, tends to forget the previous context, which makes the conversations quite shallow. However sometimes has some lucid and funny moments.
 
 ## Future work
 
