@@ -1,6 +1,6 @@
-# Alzi Talkbot, a bot that listens to your voice and talks back to you. Proof of Concept.
+## Alzi Talkbot, a bot that listens to your voice and talks back to you. Proof of Concept.
 
-## Introduction
+### Introduction
 
 This code tries to demonstrate the feasibility of a fully end to end voice interface chatbot in different languages, using current (as of November 2022) state of the art machine learning models publicly available.
 
